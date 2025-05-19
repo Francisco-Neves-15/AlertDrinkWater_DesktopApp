@@ -1,0 +1,26 @@
+{
+  "audios": {
+    "none": ["sfx0", "description"],
+    "audio\\SFX_waterdrip.wav": ["sfx1", "description"],
+    "audio\\SFX_minecraftdrink.wav": ["sfx2", "description"],
+    "audio\\SFX_drinkwaterIA.wav": ["sfx3", "description"]
+  },
+  "pt-BR": {
+    "sfx0": "Pode ser que a notificação não aparece no seu computador, recomendamos colocar ao menos o som da Gota d'água.",
+    "sfx1": "Som de uma gota d'água caindo. --- Som Padrão",
+    "sfx2": "Som clássico de beber algo no jogo Minecraft.",
+    "sfx3": "Som narrado por uma IA, diz: 'Beba água! Beba água, seu zé!'."
+  },
+  "en-US": {
+    "sfx0" : "The notification may not appear on your computer, we recommend at least adding the Drop Water sound.",
+    "sfx1": "Sound of a drop of water falling. --- Default Sound",
+    "sfx2": "Classic sound of drinking something in the game Minecraft.",
+    "sfx3": "Sound narrated by an AI, says: in portuguese 'Beba água! Beba água, seu zé!' | english equivalent: 'Drink water! Drink water, you Joe!'."
+  },
+  "fr-FR": {
+    "sfx0" : "Il se peut que la notification n'apparaisse pas sur votre ordinateur, nous vous recommandons au moins d'ajouter le son Goutte d'eau.",
+    "sfx1": "Bruit d'une goutte d'eau qui tombe. --- Son standard",
+    "sfx2": "Son classique de boire quelque chose dans le jeu Minecraft.",
+    "sfx3": "Son raconté par une IA, disant : en portugais « 'Beba água! Beba água, seu zé!' | équivalent en français : Bois de l'eau ! Bois de l'eau, Monsieur Tout-le-Monde. !"
+  }
+}
