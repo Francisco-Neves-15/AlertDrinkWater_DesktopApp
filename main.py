@@ -2,11 +2,11 @@ import time
 
 from config           import BASE_DIR
 from modules.language import language_config
-from modules.notifier import sound_play, box_notif_water, sound_configs
+from modules.notifier import sound_play, sound_configs
 from modules.summary  import print_summary, print_greetings
 from modules.utils    import get_user_interval
 
-APP_VERSION = 2.1
+APP_VERSION = 2.2
 
 def loop(minutes):
     total_times = 0
@@ -15,7 +15,7 @@ def loop(minutes):
 
     while True:
         sound_play()
-        box_notif_water()
+        # box_notif_water()
         print_summary(total_times, total_secs, minutes)
         total_times += 1
         total_secs += delay

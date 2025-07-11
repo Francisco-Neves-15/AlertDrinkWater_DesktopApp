@@ -1,5 +1,5 @@
 import winsound
-from plyer import notification
+# from plyer import notification
 import os
 import json
 # My
@@ -81,17 +81,17 @@ def sound_play():
         print("\n", text_soundMute)
 
 
-def box_notif_water():
-    title = language.langString.get('boxNotif_title', "boxNotif_title")
-    msg = language.langString.get('boxNotif_msg', "boxNotif_msg")
-    duration = language.langString.get('duration', 5)
-    try:
-        notification.notify(
-            title=f"{title}",
-            message=msg,
-            timeout=duration,
-            app_icon=ICON_PATH
-        )
-    except Exception as e:
-        err = language.langString.get('error_notif', "error_notif")
-        print(f"✖ {err}: {e}")
+# def box_notif_water():
+#     title = language.langString.get('boxNotif_title', "boxNotif_title")
+#     msg = language.langString.get('boxNotif_msg', "boxNotif_msg")
+#     duration = language.langString.get('duration', 5)
+#     try:
+#         notification.notify(
+#             title=f"{title}",
+#             message=msg,
+#             timeout=duration,
+#             app_icon=ICON_PATH
+#         )
+#     except Exception as e:
+#         err = language.langString.get('error_notif', "error_notif")
+#         print(f"✖ {err}: {e}")

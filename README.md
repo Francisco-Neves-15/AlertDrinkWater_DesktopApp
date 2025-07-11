@@ -25,7 +25,7 @@
 ## ⚙️ To Convert a `.py` File into an `.exe`
 
 ```bash
-pyinstaller --onefile --name="DrinkWaterAlert" --icon=image\icon.ico --add-data="image\icon.ico;image" --add-data="audio\SFX_waterdrip.wav;audio" --add-data="audio\SFX_minecraftdrink.wav;audio" --add-data="audio\SFX_drinkwaterIA.wav;audio" --add-data="audios.json;." --add-data="strings.json;." --hidden-import=plyer.platforms.win.notification --hidden-import=plyer.platforms.win --hidden-import=plyer.platforms main.py
+pyinstaller --onefile --name="DrinkWaterAlert" --icon=image\icon.ico --add-data="image\icon.ico;image" --add-data="audio\SFX_waterdrip.wav;audio" --add-data="audio\SFX_minecraftdrink.wav;audio" --add-data="audio\SFX_drinkwaterIA.wav;audio" --add-data="audios.json;." --add-data="strings.json;." main.py
 ```
 
 - `--onefile` : Bundle everything into a single `.exe`  
@@ -52,7 +52,7 @@ pyinstaller --onefile --name="DrinkWaterAlert" --icon=image\icon.ico --add-data=
 ### ⚙️ Como Transformar um `.py` em `.exe`
 
 ```bash
-pyinstaller --onefile --name="DrinkWaterAlert" --icon=image\icon.ico --add-data="image\icon.ico;image" --add-data="audio\SFX_waterdrip.wav;audio" --add-data="audio\SFX_minecraftdrink.wav;audio" --add-data="audio\SFX_drinkwaterIA.wav;audio" --add-data="audios.json;." --add-data="strings.json;." --hidden-import=plyer.platforms.win.notification --hidden-import=plyer.platforms.win --hidden-import=plyer.platforms main.py
+pyinstaller --onefile --name="DrinkWaterAlert" --icon=image\icon.ico --add-data="image\icon.ico;image" --add-data="audio\SFX_waterdrip.wav;audio" --add-data="audio\SFX_minecraftdrink.wav;audio" --add-data="audio\SFX_drinkwaterIA.wav;audio" --add-data="audios.json;." --add-data="strings.json;." main.py
 ```
 
 - `--onefile` : Gera um único executável  
